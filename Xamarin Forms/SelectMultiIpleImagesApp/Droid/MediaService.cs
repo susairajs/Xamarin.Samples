@@ -66,7 +66,7 @@ namespace SelectMultiIpleImagesApp.Droid
 		{
 			foreach (var p in filePaths)
 			{
-				if (Directory.Exists(p))
+				if (File.Exists(p))
 				{
 					File.Delete(p);
 				}
